@@ -1,0 +1,62 @@
+.fimg {
+    width: 252px;
+    border: 2px solid gray;
+    padding: 5px;
+}
+
+.first {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.armi-img img {
+    width: 440px;
+    height: 401px;
+}
+
+.first-text h4 {
+    font-size: 24px;
+    background-color: black;
+    padding: 11px;
+    color: white;
+}
+
+.first-text h4:hover {
+    background-color: blue;
+    cursor: pointer;
+    transition: all .2s linear;
+    padding: 15px;
+}
+
+.first-coen {
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.detail {
+    background-color: #36f0a87a;
+    padding: 24px;
+}
+
+.detail h1,
+h2 {
+    color: #300cb4;
+    font-family: emoji;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+}
+
+@media (min-width: 100px) and (max-width: 900px) {
+    .first {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,29 @@
+.flag-img {
+    width: 20%;
+    border: 1px solid gray;
+    padding: 16px;
+}
+
+.country-container {
+    border: 2px solid #181292;
+    padding: 10px;
+    background-color: #dbe0ff;
+    margin: 10px 5px;
+}
+
+.country-text {
+    background-color: white;
+    margin: 20px auto;
+    width: 303px;
+    padding: 10px;
+    border-radius: 3px;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.ct-name {
+    color: tomato;
+}
