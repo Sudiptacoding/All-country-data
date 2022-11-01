@@ -33,6 +33,7 @@ const Navbar = () => {
           <div className='navBar'>
             <div className='Nav-Items'><NavLink className='nav-linkss' to='/'>Home</NavLink></div>
             <div className='Nav-Items'><NavLink className='nav-linkss' to='/about'>About</NavLink></div>
+            <div className='Nav-Items'><NavLink className='nav-linkss' to='/search'>Search</NavLink></div>
 
           </div>
 

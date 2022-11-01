@@ -64,7 +64,7 @@
 
 .fnav {
     position: fixed;
-    top: 153px;
+    top: 100px;
     display: block;
     transition: top 0.3s;
     right: 0;

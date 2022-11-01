@@ -2,7 +2,6 @@ import React from 'react';
 import './ShowCountryData.css';
 
 const ShowCountryData = (props) => {
-    console.log(props.countryname);
     const { area, capital, coatOfArms, continents, flags, maps, name, population, region, startOfWeek, status, subregion } = props.countryname;
     return (
         <div className='de-container'>
